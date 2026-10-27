@@ -1,0 +1,120 @@
+== D = 5: fundamental unit (0, 1) of norm -1
+   A ~ (0.0403, 4.9597) v=(-8, 5) q=[5,-3,2] det=1 Voronoi=(Fraction(0, 1), Fraction(1, 1), Fraction(1, 1)) ord(I10)=2
+   A ~ (0.1056, 1.8944) v=(-3, 2) q=[2,-1,1] det=1 Voronoi=(Fraction(0, 1), Fraction(1, 1), Fraction(1, 1)) ord(I10)=2
+   A ~ (0.2764, 0.7236) v=(-1, 1) q=[1,0,1] det=1 Voronoi=(Fraction(0, 1), Fraction(1, 1), Fraction(1, 1)) ord(I10)=2
+   A ~ (0.7236, 0.2764) v=(0, 1) q=[1,1,2] det=1 Voronoi=(Fraction(0, 1), Fraction(1, 1), Fraction(1, 1)) ord(I10)=2
+   A ~ (1.8944, 0.1056) v=(1, 2) q=[2,3,5] det=1 Voronoi=(Fraction(0, 1), Fraction(1, 1), Fraction(1, 1)) ord(I10)=2
+   A ~ (4.9597, 0.0403) v=(3, 5) q=[5,8,13] det=1 Voronoi=(Fraction(0, 1), Fraction(1, 1), Fraction(1, 1)) ord(I10)=2
+   types on this stretch of the boundary: [(Fraction(0, 1), Fraction(1, 1), Fraction(1, 1))]
+== D = 8: fundamental unit (1, 1) of norm -1
+   A ~ (0.0251, 4.9749) v=(-7, 5) q=[5,-7,10] det=1 Voronoi=(Fraction(0, 1), Fraction(1, 1), Fraction(1, 1)) ord(I10)=2
+   A ~ (0.0858, 2.9142) v=(-4, 3) q=[3,-4,6] det=2 Voronoi=(Fraction(0, 1), Fraction(1, 1), Fraction(2, 1)) ord(I10)=3
+   A ~ (0.1464, 0.8536) v=(-1, 1) q=[1,-1,2] det=1 Voronoi=(Fraction(0, 1), Fraction(1, 1), Fraction(1, 1)) ord(I10)=2
+   A ~ (0.5, 0.5) v=(0, 1) q=[1,0,2] det=2 Voronoi=(Fraction(0, 1), Fraction(1, 1), Fraction(2, 1)) ord(I10)=3
+   A ~ (0.8536, 0.1464) v=(1, 1) q=[1,1,2] det=1 Voronoi=(Fraction(0, 1), Fraction(1, 1), Fraction(1, 1)) ord(I10)=2
+   A ~ (2.9142, 0.0858) v=(4, 3) q=[3,4,6] det=2 Voronoi=(Fraction(0, 1), Fraction(1, 1), Fraction(2, 1)) ord(I10)=3
+   A ~ (4.9749, 0.0251) v=(7, 5) q=[5,7,10] det=1 Voronoi=(Fraction(0, 1), Fraction(1, 1), Fraction(1, 1)) ord(I10)=2
+   types on this stretch of the boundary: [(Fraction(0, 1), Fraction(1, 1), Fraction(1, 1)), (Fraction(0, 1), Fraction(1, 1), Fraction(2, 1))]
+== D = 12: fundamental unit (2, 1) of norm 1
+   A ~ (0.0152, 10.9848) v=(-19, 11) q=[11,-19,33] det=2 Voronoi=(Fraction(0, 1), Fraction(1, 1), Fraction(2, 1)) ord(I10)=3
+   A ~ (0.0359, 6.9641) v=(-12, 7) q=[7,-12,21] det=3 Voronoi=(Fraction(0, 1), Fraction(1, 1), Fraction(3, 1)) ord(I10)=4
+   A ~ (0.0566, 2.9434) v=(-5, 3) q=[3,-5,9] det=2 Voronoi=(Fraction(0, 1), Fraction(1, 1), Fraction(2, 1)) ord(I10)=3
+   A ~ (0.134, 1.866) v=(-3, 2) q=[2,-3,6] det=3 Voronoi=(Fraction(1, 1), Fraction(1, 1), Fraction(1, 1)) ord(I10)=3
+   A ~ (0.2113, 0.7887) v=(-1, 1) q=[1,-1,3] det=2 Voronoi=(Fraction(0, 1), Fraction(1, 1), Fraction(2, 1)) ord(I10)=3
+   A ~ (0.5, 0.5) v=(0, 1) q=[1,0,3] det=3 Voronoi=(Fraction(0, 1), Fraction(1, 1), Fraction(3, 1)) ord(I10)=4
+   A ~ (0.7887, 0.2113) v=(1, 1) q=[1,1,3] det=2 Voronoi=(Fraction(0, 1), Fraction(1, 1), Fraction(2, 1)) ord(I10)=3
+   A ~ (1.866, 0.134) v=(3, 2) q=[2,3,6] det=3 Voronoi=(Fraction(1, 1), Fraction(1, 1), Fraction(1, 1)) ord(I10)=3
+   A ~ (2.9434, 0.0566) v=(5, 3) q=[3,5,9] det=2 Voronoi=(Fraction(0, 1), Fraction(1, 1), Fraction(2, 1)) ord(I10)=3
+   A ~ (6.9641, 0.0359) v=(12, 7) q=[7,12,21] det=3 Voronoi=(Fraction(0, 1), Fraction(1, 1), Fraction(3, 1)) ord(I10)=4
+   A ~ (10.9848, 0.0152) v=(19, 11) q=[11,19,33] det=2 Voronoi=(Fraction(0, 1), Fraction(1, 1), Fraction(2, 1)) ord(I10)=3
+   types on this stretch of the boundary: [(Fraction(0, 1), Fraction(1, 1), Fraction(2, 1)), (Fraction(0, 1), Fraction(1, 1), Fraction(3, 1)), (Fraction(1, 1), Fraction(1, 1), Fraction(1, 1))]
+== D = 13: fundamental unit (1, 1) of norm -1
+   A ~ (0.0077, 9.9923) v=(-23, 10) q=[10,-13,17] det=1 Voronoi=(Fraction(0, 1), Fraction(1, 1), Fraction(1, 1)) ord(I10)=2
+   A ~ (0.0331, 6.9669) v=(-16, 7) q=[7,-9,12] det=3 Voronoi=(Fraction(0, 1), Fraction(1, 1), Fraction(3, 1)) ord(I10)=4
+   A ~ (0.0585, 3.9415) v=(-9, 4) q=[4,-5,7] det=3 Voronoi=(Fraction(0, 1), Fraction(1, 1), Fraction(3, 1)) ord(I10)=4
+   A ~ (0.084, 0.916) v=(-2, 1) q=[1,-1,2] det=1 Voronoi=(Fraction(0, 1), Fraction(1, 1), Fraction(1, 1)) ord(I10)=2
+   A ~ (0.3613, 0.6387) v=(-1, 1) q=[1,0,3] det=3 Voronoi=(Fraction(0, 1), Fraction(1, 1), Fraction(3, 1)) ord(I10)=4
+   A ~ (0.6387, 0.3613) v=(0, 1) q=[1,1,4] det=3 Voronoi=(Fraction(0, 1), Fraction(1, 1), Fraction(3, 1)) ord(I10)=4
+   A ~ (0.916, 0.084) v=(1, 1) q=[1,2,5] det=1 Voronoi=(Fraction(0, 1), Fraction(1, 1), Fraction(1, 1)) ord(I10)=2
+   A ~ (3.9415, 0.0585) v=(5, 4) q=[4,9,21] det=3 Voronoi=(Fraction(0, 1), Fraction(1, 1), Fraction(3, 1)) ord(I10)=4
+   A ~ (6.9669, 0.0331) v=(9, 7) q=[7,16,37] det=3 Voronoi=(Fraction(0, 1), Fraction(1, 1), Fraction(3, 1)) ord(I10)=4
+   A ~ (9.9923, 0.0077) v=(13, 10) q=[10,23,53] det=1 Voronoi=(Fraction(0, 1), Fraction(1, 1), Fraction(1, 1)) ord(I10)=2
+   types on this stretch of the boundary: [(Fraction(0, 1), Fraction(1, 1), Fraction(1, 1)), (Fraction(0, 1), Fraction(1, 1), Fraction(3, 1))]
+== D = 17: fundamental unit (3, 2) of norm -1
+   A ~ (0.0131, 8.9869) v=(-23, 9) q=[9,-14,22] det=2 Voronoi=(Fraction(0, 1), Fraction(1, 1), Fraction(2, 1)) ord(I10)=3
+   A ~ (0.0299, 1.9701) v=(-5, 2) q=[2,-3,5] det=1 Voronoi=(Fraction(0, 1), Fraction(1, 1), Fraction(1, 1)) ord(I10)=2
+   A ~ (0.1362, 0.8638) v=(-2, 1) q=[1,-1,3] det=2 Voronoi=(Fraction(0, 1), Fraction(1, 1), Fraction(2, 1)) ord(I10)=3
+   A ~ (0.3787, 0.6213) v=(-1, 1) q=[1,0,4] det=4 Voronoi=(Fraction(0, 1), Fraction(1, 1), Fraction(4, 1)) ord(I10)=5
+   A ~ (0.6213, 0.3787) v=(0, 1) q=[1,1,5] det=4 Voronoi=(Fraction(0, 1), Fraction(1, 1), Fraction(4, 1)) ord(I10)=5
+   A ~ (0.8638, 0.1362) v=(1, 1) q=[1,2,6] det=2 Voronoi=(Fraction(0, 1), Fraction(1, 1), Fraction(2, 1)) ord(I10)=3
+   A ~ (1.9701, 0.0299) v=(3, 2) q=[2,5,13] det=1 Voronoi=(Fraction(0, 1), Fraction(1, 1), Fraction(1, 1)) ord(I10)=2
+   A ~ (8.9869, 0.0131) v=(14, 9) q=[9,23,59] det=2 Voronoi=(Fraction(0, 1), Fraction(1, 1), Fraction(2, 1)) ord(I10)=3
+   types on this stretch of the boundary: [(Fraction(0, 1), Fraction(1, 1), Fraction(1, 1)), (Fraction(0, 1), Fraction(1, 1), Fraction(2, 1)), (Fraction(0, 1), Fraction(1, 1), Fraction(4, 1))]
+== D = 21: fundamental unit (2, 1) of norm 1
+   A ~ (0.0265, 8.9735) v=(-25, 9) q=[9,-16,29] det=5 Voronoi=(Fraction(0, 1), Fraction(1, 1), Fraction(5, 1)) ord(I10)=6
+   A ~ (0.036, 3.964) v=(-11, 4) q=[4,-7,13] det=3 Voronoi=(Fraction(0, 1), Fraction(1, 1), Fraction(3, 1)) ord(I10)=4
+   A ~ (0.0816, 2.9184) v=(-8, 3) q=[3,-5,10] det=5 Voronoi=(Fraction(1, 1), Fraction(1, 1), Fraction(2, 1)) ord(I10)=4
+   A ~ (0.1271, 1.8729) v=(-5, 2) q=[2,-3,7] det=5 Voronoi=(Fraction(1, 1), Fraction(1, 1), Fraction(2, 1)) ord(I10)=4
+   A ~ (0.1727, 0.8273) v=(-2, 1) q=[1,-1,4] det=3 Voronoi=(Fraction(0, 1), Fraction(1, 1), Fraction(3, 1)) ord(I10)=4
+   A ~ (0.3909, 0.6091) v=(-1, 1) q=[1,0,5] det=5 Voronoi=(Fraction(0, 1), Fraction(1, 1), Fraction(5, 1)) ord(I10)=6
+   A ~ (0.6091, 0.3909) v=(0, 1) q=[1,1,6] det=5 Voronoi=(Fraction(0, 1), Fraction(1, 1), Fraction(5, 1)) ord(I10)=6
+   A ~ (0.8273, 0.1727) v=(1, 1) q=[1,2,7] det=3 Voronoi=(Fraction(0, 1), Fraction(1, 1), Fraction(3, 1)) ord(I10)=4
+   A ~ (1.8729, 0.1271) v=(3, 2) q=[2,5,15] det=5 Voronoi=(Fraction(1, 1), Fraction(1, 1), Fraction(2, 1)) ord(I10)=4
+   A ~ (2.9184, 0.0816) v=(5, 3) q=[3,8,23] det=5 Voronoi=(Fraction(1, 1), Fraction(1, 1), Fraction(2, 1)) ord(I10)=4
+   A ~ (3.964, 0.036) v=(7, 4) q=[4,11,31] det=3 Voronoi=(Fraction(0, 1), Fraction(1, 1), Fraction(3, 1)) ord(I10)=4
+   A ~ (8.9735, 0.0265) v=(16, 9) q=[9,25,70] det=5 Voronoi=(Fraction(0, 1), Fraction(1, 1), Fraction(5, 1)) ord(I10)=6
+   types on this stretch of the boundary: [(Fraction(0, 1), Fraction(1, 1), Fraction(3, 1)), (Fraction(0, 1), Fraction(1, 1), Fraction(5, 1)), (Fraction(1, 1), Fraction(1, 1), Fraction(2, 1))]
+== D = 24: fundamental unit (5, 2) of norm 1
+   A ~ (0.0093, 8.9907) v=(-22, 9) q=[9,-22,54] det=2 Voronoi=(Fraction(0, 1), Fraction(1, 1), Fraction(2, 1)) ord(I10)=3
+   A ~ (0.0299, 6.9701) v=(-17, 7) q=[7,-17,42] det=5 Voronoi=(Fraction(1, 1), Fraction(1, 1), Fraction(2, 1)) ord(I10)=4
+   A ~ (0.0505, 4.9495) v=(-12, 5) q=[5,-12,30] det=6 Voronoi=(Fraction(0, 1), Fraction(2, 1), Fraction(3, 1)) ord(I10)=5
+   A ~ (0.0711, 2.9289) v=(-7, 3) q=[3,-7,18] det=5 Voronoi=(Fraction(1, 1), Fraction(1, 1), Fraction(2, 1)) ord(I10)=4
+   A ~ (0.0918, 0.9082) v=(-2, 1) q=[1,-2,6] det=2 Voronoi=(Fraction(0, 1), Fraction(1, 1), Fraction(2, 1)) ord(I10)=3
+   A ~ (0.2959, 0.7041) v=(-1, 1) q=[1,-1,6] det=5 Voronoi=(Fraction(0, 1), Fraction(1, 1), Fraction(5, 1)) ord(I10)=6
+   A ~ (0.5, 0.5) v=(0, 1) q=[1,0,6] det=6 Voronoi=(Fraction(0, 1), Fraction(1, 1), Fraction(6, 1)) ord(I10)=7
+   A ~ (0.7041, 0.2959) v=(1, 1) q=[1,1,6] det=5 Voronoi=(Fraction(0, 1), Fraction(1, 1), Fraction(5, 1)) ord(I10)=6
+   A ~ (0.9082, 0.0918) v=(2, 1) q=[1,2,6] det=2 Voronoi=(Fraction(0, 1), Fraction(1, 1), Fraction(2, 1)) ord(I10)=3
+   A ~ (2.9289, 0.0711) v=(7, 3) q=[3,7,18] det=5 Voronoi=(Fraction(1, 1), Fraction(1, 1), Fraction(2, 1)) ord(I10)=4
+   A ~ (4.9495, 0.0505) v=(12, 5) q=[5,12,30] det=6 Voronoi=(Fraction(0, 1), Fraction(2, 1), Fraction(3, 1)) ord(I10)=5
+   A ~ (6.9701, 0.0299) v=(17, 7) q=[7,17,42] det=5 Voronoi=(Fraction(1, 1), Fraction(1, 1), Fraction(2, 1)) ord(I10)=4
+   A ~ (8.9907, 0.0093) v=(22, 9) q=[9,22,54] det=2 Voronoi=(Fraction(0, 1), Fraction(1, 1), Fraction(2, 1)) ord(I10)=3
+   types on this stretch of the boundary: [(Fraction(0, 1), Fraction(1, 1), Fraction(2, 1)), (Fraction(0, 1), Fraction(1, 1), Fraction(5, 1)), (Fraction(0, 1), Fraction(1, 1), Fraction(6, 1)), (Fraction(0, 1), Fraction(2, 1), Fraction(3, 1)), (Fraction(1, 1), Fraction(1, 1), Fraction(2, 1))]
+== D = 28: fundamental unit (8, 3) of norm 1
+   A ~ (0.0195, 10.9805) v=(-29, 11) q=[11,-29,77] det=6 Voronoi=(Fraction(0, 1), Fraction(2, 1), Fraction(3, 1)) ord(I10)=5
+   A ~ (0.0314, 7.9686) v=(-21, 8) q=[8,-21,56] det=7 Voronoi=(Fraction(1, 1), Fraction(1, 1), Fraction(3, 1)) ord(I10)=5
+   A ~ (0.0432, 4.9568) v=(-13, 5) q=[5,-13,35] det=6 Voronoi=(Fraction(0, 1), Fraction(2, 1), Fraction(3, 1)) ord(I10)=5
+   A ~ (0.0551, 1.9449) v=(-5, 2) q=[2,-5,14] det=3 Voronoi=(Fraction(1, 1), Fraction(1, 1), Fraction(1, 1)) ord(I10)=3
+   A ~ (0.122, 0.878) v=(-2, 1) q=[1,-2,7] det=3 Voronoi=(Fraction(0, 1), Fraction(1, 1), Fraction(3, 1)) ord(I10)=4
+   A ~ (0.311, 0.689) v=(-1, 1) q=[1,-1,7] det=6 Voronoi=(Fraction(0, 1), Fraction(1, 1), Fraction(6, 1)) ord(I10)=7
+   A ~ (0.5, 0.5) v=(0, 1) q=[1,0,7] det=7 Voronoi=(Fraction(0, 1), Fraction(1, 1), Fraction(7, 1)) ord(I10)=8
+   A ~ (0.689, 0.311) v=(1, 1) q=[1,1,7] det=6 Voronoi=(Fraction(0, 1), Fraction(1, 1), Fraction(6, 1)) ord(I10)=7
+   A ~ (0.878, 0.122) v=(2, 1) q=[1,2,7] det=3 Voronoi=(Fraction(0, 1), Fraction(1, 1), Fraction(3, 1)) ord(I10)=4
+   A ~ (1.9449, 0.0551) v=(5, 2) q=[2,5,14] det=3 Voronoi=(Fraction(1, 1), Fraction(1, 1), Fraction(1, 1)) ord(I10)=3
+   A ~ (4.9568, 0.0432) v=(13, 5) q=[5,13,35] det=6 Voronoi=(Fraction(0, 1), Fraction(2, 1), Fraction(3, 1)) ord(I10)=5
+   A ~ (7.9686, 0.0314) v=(21, 8) q=[8,21,56] det=7 Voronoi=(Fraction(1, 1), Fraction(1, 1), Fraction(3, 1)) ord(I10)=5
+   A ~ (10.9805, 0.0195) v=(29, 11) q=[11,29,77] det=6 Voronoi=(Fraction(0, 1), Fraction(2, 1), Fraction(3, 1)) ord(I10)=5
+   types on this stretch of the boundary: [(Fraction(0, 1), Fraction(1, 1), Fraction(3, 1)), (Fraction(0, 1), Fraction(1, 1), Fraction(6, 1)), (Fraction(0, 1), Fraction(1, 1), Fraction(7, 1)), (Fraction(0, 1), Fraction(2, 1), Fraction(3, 1)), (Fraction(1, 1), Fraction(1, 1), Fraction(1, 1)), (Fraction(1, 1), Fraction(1, 1), Fraction(3, 1))]
+== D = 29: fundamental unit (2, 1) of norm -1
+   A ~ (0.022, 10.978) v=(-35, 11) q=[11,-24,53] det=7 Voronoi=(Fraction(0, 1), Fraction(1, 1), Fraction(7, 1)) ord(I10)=8
+   A ~ (0.0289, 5.9711) v=(-19, 6) q=[6,-13,29] det=5 Voronoi=(Fraction(0, 1), Fraction(1, 1), Fraction(5, 1)) ord(I10)=6
+   A ~ (0.0358, 0.9642) v=(-3, 1) q=[1,-2,5] det=1 Voronoi=(Fraction(0, 1), Fraction(1, 1), Fraction(1, 1)) ord(I10)=2
+   A ~ (0.2215, 0.7785) v=(-2, 1) q=[1,-1,6] det=5 Voronoi=(Fraction(0, 1), Fraction(1, 1), Fraction(5, 1)) ord(I10)=6
+   A ~ (0.4072, 0.5928) v=(-1, 1) q=[1,0,7] det=7 Voronoi=(Fraction(0, 1), Fraction(1, 1), Fraction(7, 1)) ord(I10)=8
+   A ~ (0.5928, 0.4072) v=(0, 1) q=[1,1,8] det=7 Voronoi=(Fraction(0, 1), Fraction(1, 1), Fraction(7, 1)) ord(I10)=8
+   A ~ (0.7785, 0.2215) v=(1, 1) q=[1,2,9] det=5 Voronoi=(Fraction(0, 1), Fraction(1, 1), Fraction(5, 1)) ord(I10)=6
+   A ~ (0.9642, 0.0358) v=(2, 1) q=[1,3,10] det=1 Voronoi=(Fraction(0, 1), Fraction(1, 1), Fraction(1, 1)) ord(I10)=2
+   A ~ (5.9711, 0.0289) v=(13, 6) q=[6,19,61] det=5 Voronoi=(Fraction(0, 1), Fraction(1, 1), Fraction(5, 1)) ord(I10)=6
+   A ~ (10.978, 0.022) v=(24, 11) q=[11,35,112] det=7 Voronoi=(Fraction(0, 1), Fraction(1, 1), Fraction(7, 1)) ord(I10)=8
+   types on this stretch of the boundary: [(Fraction(0, 1), Fraction(1, 1), Fraction(1, 1)), (Fraction(0, 1), Fraction(1, 1), Fraction(5, 1)), (Fraction(0, 1), Fraction(1, 1), Fraction(7, 1))]
+== D = 33: fundamental unit (19, 8) of norm 1
+   A ~ (0.0166, 10.9834) v=(-37, 11) q=[11,-26,62] det=6 Voronoi=(Fraction(0, 1), Fraction(2, 1), Fraction(3, 1)) ord(I10)=5
+   A ~ (0.0203, 2.9797) v=(-10, 3) q=[3,-7,17] det=2 Voronoi=(Fraction(0, 1), Fraction(1, 1), Fraction(2, 1)) ord(I10)=3
+   A ~ (0.0648, 0.9352) v=(-3, 1) q=[1,-2,6] det=2 Voronoi=(Fraction(0, 1), Fraction(1, 1), Fraction(2, 1)) ord(I10)=3
+   A ~ (0.2389, 0.7611) v=(-2, 1) q=[1,-1,7] det=6 Voronoi=(Fraction(0, 1), Fraction(1, 1), Fraction(6, 1)) ord(I10)=7
+   A ~ (0.413, 0.587) v=(-1, 1) q=[1,0,8] det=8 Voronoi=(Fraction(0, 1), Fraction(1, 1), Fraction(8, 1)) ord(I10)=9
+   A ~ (0.587, 0.413) v=(0, 1) q=[1,1,9] det=8 Voronoi=(Fraction(0, 1), Fraction(1, 1), Fraction(8, 1)) ord(I10)=9
+   A ~ (0.7611, 0.2389) v=(1, 1) q=[1,2,10] det=6 Voronoi=(Fraction(0, 1), Fraction(1, 1), Fraction(6, 1)) ord(I10)=7
+   A ~ (0.9352, 0.0648) v=(2, 1) q=[1,3,11] det=2 Voronoi=(Fraction(0, 1), Fraction(1, 1), Fraction(2, 1)) ord(I10)=3
+   A ~ (2.9797, 0.0203) v=(7, 3) q=[3,10,34] det=2 Voronoi=(Fraction(0, 1), Fraction(1, 1), Fraction(2, 1)) ord(I10)=3
+   A ~ (10.9834, 0.0166) v=(26, 11) q=[11,37,125] det=6 Voronoi=(Fraction(0, 1), Fraction(2, 1), Fraction(3, 1)) ord(I10)=5
+   types on this stretch of the boundary: [(Fraction(0, 1), Fraction(1, 1), Fraction(2, 1)), (Fraction(0, 1), Fraction(1, 1), Fraction(6, 1)), (Fraction(0, 1), Fraction(1, 1), Fraction(8, 1)), (Fraction(0, 1), Fraction(2, 1), Fraction(3, 1))]

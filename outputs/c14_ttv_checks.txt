@@ -1,0 +1,15 @@
+F o g - d lam^5 F'' == 0: True
+scalars act trivially: True
+   trial 0: rank of the orbit map at the identity = 3 (4 group parameters, scalars trivial)
+   trial 1: rank of the orbit map at the identity = 3 (4 group parameters, scalars trivial)
+   trial 2: rank of the orbit map at the identity = 3 (4 group parameters, scalars trivial)
+c12_ttv_frob_p3.txt: c_8 = -8748  (c_8 = eps c_8, so eps = +1: True)
+   traces for k > 8 agree with the polynomial: True k = [9, 10, 11, 12]
+   R(T) = T**16 - T**14 + T**10 - 4*T**8/3 + T**6 - T**2 + 1
+   R even: True
+   factors over Q: [16] ; over Q(sqrt 2): [16]
+c12_ttv_frob_m2_p7.txt: c_8 = -9882516  (c_8 = eps c_8, so eps = +1: True)
+   traces for k > 8 agree with the polynomial: True k = []
+   R(T) = T**16 + 12*T**15/7 + 2*T**14 + 12*T**13/7 + 8*T**12/7 + 8*T**11/7 + 2*T**10/7 - 8*T**9/7 - 12*T**8/7 - 8*T**7/7 + 2*T**6/7 + 8*T**5/7 + 8*T**4/7 + 12*T**3/7 + 2*T**2 + 12*T/7 + 1
+   R even: False
+   factors over Q: [16] ; over Q(sqrt 2): [8, 8]

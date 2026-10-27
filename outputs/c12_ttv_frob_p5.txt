@@ -1,0 +1,19 @@
+TTV member c = 1 + 2 t, S = [3, 1, -2, 1, 5, -1], p = 5
+good reduction at 5: True (ok)
+   q = 5: brute force agrees (0)
+   k = 1, q = 5: trace on the 16-dimensional part = 0
+   q = 25: brute force agrees (-30)
+   k = 2, q = 25: trace on the 16-dimensional part = -30
+   q = 125: brute force agrees (0)
+   k = 3, q = 125: trace on the 16-dimensional part = 0
+   k = 4, q = 625: trace on the 16-dimensional part = 450
+   k = 5, q = 3125: trace on the 16-dimensional part = 0
+   k = 6, q = 15625: trace on the 16-dimensional part = 49500
+   k = 7, q = 78125: trace on the 16-dimensional part = 0
+   k = 8, q = 390625: trace on the 16-dimensional part = 5226250
+   k = 9, q = 1953125: trace on the 16-dimensional part = 0
+== eps = 1: |roots/q| in [1.000000, 1.000000]
+   factors of R (degree, multiplicity, cyclotomic index or False): [(1, 2, 1), (1, 2, 2), (2, 2, 4), (4, 1, 8), (4, 1, False)]
+   factors of R over Q(sqrt2) (degree, multiplicity): [(1, 2), (1, 2), (2, 1), (2, 1), (2, 2), (4, 1)]
+   cyclotomic degree 12: rho(S over F_5-bar) <= 6 + 12 = 18
+   R(T) = T**16 + 3*T**14/5 - 3*T**10/5 - 2*T**8 - 3*T**6/5 + 3*T**2/5 + 1

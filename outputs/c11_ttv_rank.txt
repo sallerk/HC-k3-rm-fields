@@ -1,0 +1,20 @@
+== the genus-4 cover (all checks should be True)
+   D4(x + 1/x) = x^4 + x^-4: True
+   g preserves Y: True
+   iota preserves Y: True
+   iota g iota = g^-1: True
+   g^4 = (x, -v), so g has order 8: True
+   (xi, eta) is iota-invariant: True
+   eta^2 = (xi + 2)(D4(xi) + s) on Y: True
+   fixed points of iota: x = 1/x and v = v/x^5 at x = 1 (both points), x = -1 only if v = 0 (s = -2)
+   g^* (x^0 dx/v) = z8^1 x^0 dx/v: True; (g + g^-1)^* eigenvalue sqrt(2)
+   g^* (x^1 dx/v) = z8^3 x^1 dx/v: True; (g + g^-1)^* eigenvalue -sqrt(2)
+   g^* (x^2 dx/v) = z8^5 x^2 dx/v: True; (g + g^-1)^* eigenvalue -sqrt(2)
+   g^* (x^3 dx/v) = z8^7 x^3 dx/v: True; (g + g^-1)^* eigenvalue sqrt(2)
+   iota^* (x^j dx/v) = - x^(3-j) dx/v: True
+   so the iota-invariant differentials are w0 - w3 (eigenvalue sqrt2) and w1 - w2 (eigenvalue -sqrt2)
+   f(c xi) = c^5 (xi + 2)(D4(xi) + S/c^4): True
+TTV family, trial 0: effective dimension 5 (8 parameters; orbit tangent rank 9)
+TTV family, trial 1: effective dimension 5 (8 parameters; orbit tangent rank 9)
+TTV family, trial 2: effective dimension 5 (8 parameters; orbit tangent rank 9)
+line + quintic: effective dimension 14 (expected 14 = 20 - 6)

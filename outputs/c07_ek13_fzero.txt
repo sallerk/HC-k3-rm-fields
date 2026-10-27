@@ -1,0 +1,9 @@
+== D = 13 family, f = 1: section P on the curve: True; t = 0: [3, 4, 8] IV* (E6); t = 1: [0, 0, 2] I2; t = oo: [4, 5, 10] II* (E8); other factors of Delta (degree, multiplicity): [(4, 1)]
+== D = 13 family, f = 0: section P on the curve: True; t = 0: [3, 5, 9] III* (E7); t = 1: [0, 0, 2] I2; t = oo: [4, 5, 10] II* (E8); other factors of Delta (degree, multiplicity): [(3, 1)]
+   weighted limit of IG13 at (g, h) = (s F^2, F), F -> oo: [8*(4*s + 3), 16*s**2, 32*s**2*(6*s + 13), 64*s**4]; equals the map on X_b at y = [s]
+   Shioda-Tate at f = 0: rho >= 2 + 8 + 7 + 1 + rank MW >= 19 (P has infinite order: a II* fibre forces trivial torsion). So the abelian surfaces on X_b have Picard number >= 3.
+== D = 12 family at f = f: t = 0: [2, 3, 8] I*2; t = 1: [0, 0, 3] I3; t = oo: [4, 5, 10] II* (E8); other factors of Delta (degree, multiplicity): [(3, 1)]
+== D = 12 family at f = -1: t = 0: [3, 5, 9] III* (E7); t = 1: [0, 0, 3] I3; t = oo: [4, 5, 10] II* (E8); other factors of Delta (degree, multiplicity): [(2, 1)]
+== D = 12 family at f = 1: t = 0: [3, 5, 9] III* (E7); t = 1: [0, 0, 3] I3; t = oo: [4, 5, 10] II* (E8); other factors of Delta (degree, multiplicity): [(2, 1)]
+   weighted limit of IG12 along e = c f^3, f -> oo: [-8*(3*c + 2), 4*(15*c + 1), -4*(102*c**2 + 67*c + 6), -4*c**3]; equals the map on X3 at y = [c]
+   limit family y^2 = x^3 - t(1-t) x^2 + c^2 (t-1)^2 t^5: t = 0: [2, 3, 8] I*2; t = 1: [2, 2, 4] IV; t = oo: [4, 5, 10] II* (E8); other factors of Delta (degree, multiplicity): [(2, 1)]

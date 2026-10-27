@@ -1,0 +1,3 @@
+  bitangent (2,2,1,1): B smooth, P0 not on B; f_0 = (X - 2)**2*(X + 1)**2*(3*X**2 + X - 1); ord_t=0 I10 = 2
+  tritangent (2,2,2): B smooth, P0 not on B; f_0 = (X**3 + 2*X**2 - X + 3)**2; ord_t=0 I10 = 3
+  flex (3,1,1,1): B smooth, P0 not on B; f_0 = -(X - 1)**3*(X**3 - 2*X**2 + 3*X + 2); ord_t=0 I10 = 2

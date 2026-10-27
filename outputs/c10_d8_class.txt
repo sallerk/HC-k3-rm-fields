@@ -1,0 +1,33 @@
+== Psi: degree 4
+   R = -w*(-m + w)*(m + w)**2
+   S = -m**3*w + 16*m**2*n**2 - 9*m**2*w**2 + 56*m*n**2*w - 27*m*w**3 - 32*n**4 + 72*n**2*w**2 - 27*w**4
+   U = -16*w*(m + w)*(-2*n**2 + w**2)
+   multiplicity at a+ = (-1, sqrt(2)/2): (2, [2, 2, 2])
+   multiplicity at a- = (-1, -sqrt(2)/2): (2, [2, 2, 2])
+   multiplicity at b+ = (1, sqrt(2)/2): (1, [1, 1, 1])
+   multiplicity at b- = (1, -sqrt(2)/2): (1, [1, 1, 1])
+   image of the line m = -w: [0, -8*(-2*n**2 + w**2)**2, 0]
+   near (1:0:0) (m = 1): orders in (n, w): [1, 1, 3]
+== general curve of degree 1: image degree 4
+== general curve of degree 2: image degree 8
+   with n' = sqrt2 n: R, S, U = [-w*(-m + w)*(m + w)**2, -m**3*w + 8*m**2*n2**2 - 9*m**2*w**2 + 28*m*n2**2*w - 27*m*w**3 - 8*n2**4 + 36*n2**2*w**2 - 27*w**4, -16*w*(m + w)*(-n2 + w)*(n2 + w)]
+   on w = 0: [0, 8*n2**2*(m - n2)*(m + n2), 0]
+   multiplicity at c+ = (1 : 1 : 0) (n' coordinates): [1, 1, 1]
+   multiplicity at c- = (1 : -1 : 0) (n' coordinates): [1, 1, 1]
+   at (1:0:0): R, S, U mod (w, n'^2): [0, 0, 0] (base scheme (w, n'^2), length 2)
+   A = 4H - sum eps_i E_i with eps = {'a+': 2, 'a-': 2, 'b+': 1, 'b-': 1, 'oo': 1, "oo'": 1, 'c+': 1, 'c-': 1}: A^2 = 2 (degree of Psi = 2); A.L = 0 for L = (m = -w); A.W = 0 for W = (w = 0)
+   -K - A = -H + E_a+ + E_a-, so for C' = kH - sum mu_i E_i with A.C' = 6:
+   -K.C' - 1 = 5 - (C'.L~) - ... ; C'.L~ = k - mu_a+ - mu_a-, C'.W~ = k - mu_oo - mu_oo' - mu_c+ - mu_c-.
+   A curve avoiding L~ and W~ (both contracted to (0:1:0)) has -K.C' - 1 = k - mu_b+ - mu_b- - 1 = A.C' - 1 = 5.
+== nodal cubic 0: C2 = 3*X**2 + 3*X*Y - Y**2, C3 = -3*X**3 + X**2*Y - Y**3/2; image degree 6 (common factor of degree 4)
+   R(t): degree 6, factors (degree, multiplicity) [(1, 1), (1, 2), (3, 1)]
+   S(t): degree 6, factors (degree, multiplicity) [(6, 1)]
+   common zeros of R and U, i.e. passages through (0:1:0): degree 3; of R and S (theta corner (0:0:1)): degree 0
+== nodal cubic 1: C2 = -X**2 + X*Y + 4*Y**2, C3 = -4*X**3 - 4*X**2*Y + 2*X*Y**2 + 2*Y**3; image degree 5 (common factor of degree 5)
+   R(t): degree 5, factors (degree, multiplicity) [(2, 1), (3, 1)]
+   S(t): degree 5, factors (degree, multiplicity) [(5, 1)]
+   common zeros of R and U, i.e. passages through (0:1:0): degree 2; of R and S (theta corner (0:0:1)): degree 0
+== nodal cubic 2: C2 = 2*X**2 - X*Y + Y**2, C3 = 4*X**3 + 3*X**2*Y - 4*X*Y**2 + Y**3/2; image degree 6 (common factor of degree 4)
+   R(t): degree 6, factors (degree, multiplicity) [(1, 1), (2, 1), (3, 1)]
+   S(t): degree 6, factors (degree, multiplicity) [(6, 1)]
+   common zeros of R and U, i.e. passages through (0:1:0): degree 3; of R and S (theta corner (0:0:1)): degree 0

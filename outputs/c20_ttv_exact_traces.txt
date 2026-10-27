@@ -1,0 +1,22 @@
+== member 1: c = 1 + 2 t, P coefficients [3, 1, -2, 1, 5, -1], p = 3
+   good reduction at 3: True (ok)
+   k = 1, q = 3: exact sum = 0, FFT value = 0, equal: True (exact count 0.0 s)
+   k = 2, q = 9: exact sum = 18, FFT value = 18, equal: True (exact count 0.0 s)
+   k = 3, q = 27: exact sum = 0, FFT value = 0, equal: True (exact count 0.0 s)
+   k = 4, q = 81: exact sum = 162, FFT value = 162, equal: True (exact count 0.0 s)
+   k = 5, q = 243: exact sum = 0, FFT value = 0, equal: True (exact count 0.1 s)
+   k = 6, q = 729: exact sum = -2916, FFT value = -2916, equal: True (exact count 0.2 s)
+   k = 7, q = 2187: exact sum = 0, FFT value = 0, equal: True (exact count 1.2 s)
+   k = 8, q = 6561: exact sum = 30618, FFT value = 30618, equal: True (exact count 8.8 s)
+== member 2: c = 5 + 3 t, P coefficients [5, -1, 6, 5, 5, 4], p = 7
+   good reduction at 7: True (ok)
+   k = 1, q = 7: exact sum = -12, FFT value = -12, equal: True (exact count 0.0 s)
+   k = 2, q = 49: exact sum = -52, FFT value = -52, equal: True (exact count 0.0 s)
+   k = 3, q = 343: exact sum = 36, FFT value = 36, equal: True (exact count 0.2 s)
+   k = 4, q = 2401: exact sum = 744, FFT value = 744, equal: True (exact count 2.2 s)
+== member 1: the characteristic polynomial from the exact traces k = 1..8 only
+   eps = 1: |roots/q| in [1.000000, 1.000000]
+   factors of R (degree, multiplicity, cyclotomic index or False): [(16, 1, False)]
+   factors of R over Q(sqrt2) (degree, multiplicity): [(16, 1)]
+   cyclotomic degree 0: rho(S over F_3-bar) <= 6 + 0 = 6
+   R(T) = T**16 - T**14 + T**10 - 4*T**8/3 + T**6 - T**2 + 1

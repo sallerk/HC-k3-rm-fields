@@ -1,0 +1,15 @@
+== 1. theta and the triple-root point
+   (z^3 - 1)^2: {2: -216, 4: 2916, 6: -157464, 10: 0}; I4/I2^2 = 1/16, I6/I2^3 = 1/64
+   x^3 y^3: {2: 6, 4: 0, 6: 0, 10: 0}
+== 2. two double roots: (z^2 - 1)^2 (z^2 - c)
+   I2 = 32*(c**2 + 10*c + 1)
+   I4 = 64*(c - 1)**4
+   I6 = 512*(c - 1)**4*(c**2 + 14*c + 1)
+   I10 = 0
+   gcd(I2, I4, I6) = 32 (common zeros only at c = 0, 1 allowed)
+   Gamma polynomial: 0
+   theta conditions 16 I4 - I2^2 = -24576*c*(c**2 + 4*c + 1), 64 I6 - I2^3 = -131072*c*(5*c**4 + 88*c**3 + 246*c**2 + 88*c + 5); common factor 8192*c
+   (1:0:0:0) condition I4 = I6 = 0: common factor 64*c**4 - 256*c**3 + 384*c**2 - 256*c + 64
+== 3. one double root: z^2 (z - 1)(z - a)(z - b), sixth root at infinity
+   I10 = 0
+   Gamma polynomial: 432*a**6*b**6*(a - 1)**2*(a - b)**2*(b - 1)**2

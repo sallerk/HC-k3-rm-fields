@@ -1,0 +1,27 @@
+B8 = 2*(16*R**3 + 32*R**2*S + 24*R**2*U + 16*R*S**2 - 40*R*S*U + 12*R*U**2 - S*U**2 + 2*U**3)
+1. singular locus of B8: Groebner basis [1944*R**2 + 104*S**2 - 324*S*U + 243*U**2, 36*R*S + 4*S**2 - 9*S*U, 1944*R*U + 256*S**2 - 648*S*U + 243*U**2, 2048*S**3 - 17496*S*U**2 + 19683*U**3, 256*S**2*U - 864*S*U**2 + 729*U**3]
+   B8 and its gradient at (1/16 : 27/16 : 1): [0, 0, 0, 0]
+   local equation at the singular point: quadratic part 2*(9*R + S)**2, cubic part 32*R*(R + S)**2
+   quadratic part = const * (9*R + S)^2; cubic part on the line 9*R + S = 0 (non-zero means a cusp, A2): 2048*R**3
+   Q at (0:1:0): B8 = 0, U = 0; B8 on U = 0: 32*R*(R + S)**2
+2. lines through the singular points of Q:
+   (0:1:0), R = a U: Q|_l = 2*y**2*(16*a**3*y**2 + 32*a**2*x*y + 24*a**2*y**2 + 16*a*x**2 - 40*a*x*y + 12*a*y**2 - x*y + 2*y**2)
+   (1:-1:0), R + S = a U: Q|_l = 2*y**2*(16*a**2*x*y - 40*a*x*y - a*y**2 + 64*x**2 + 13*x*y + 2*y**2)
+   R = a U: Q|_l / y^2 = 2*(16*a**3*y**2 + 32*a**2*x*y + 24*a**2*y**2 + 16*a*x**2 - 40*a*x*y + 12*a*y**2 - x*y + 2*y**2); discriminant in x: -4*(16*a - 1)**3
+   R + S = a U: Q|_l / y^2 = 2*(16*a**2*x*y - 40*a*x*y - a*y**2 + 64*x**2 + 13*x*y + 2*y**2); discriminant in x: 4*(4*a - 7)**3*(4*a + 1)
+   lines through the cusp, direction (p : q : 0): Q|_l = mu^2 * (2*lam*(81*lam*p**2 + 18*lam*p*q + lam*q**2 + 16*mu*p**3 + 32*mu*p**2*q + 16*mu*p*q**2))
+   discriminant of the residual quadratic in (lam : mu): 1024*p**2*(p + q)**4
+   squares check:
+     U = 0: a component of Q (branch line)
+     16R = U: Q|_l = U**2*(16*S - 27*U)**2/128; square up to a constant: True
+     4R + 4S = 7U: Q|_l = U**2*(16*S - 27*U)**2/2; square up to a constant: True
+     4R + 4S + U = 0 (TTV): Q|_l = U**2*(16*S + U)**2/2; square up to a constant: True
+3. R30(E(R, S, U)): constant -322486272; factors: [S]^2; [U]^2; [R]^2; [16*R**3 + 32*R**2*S + 24*R**2*U + 16*R*S**2 - 40*R*S*U + 12*R*U**2 - S*U**2 + 2*U**3]^1; [256*R**3 - 288*R**2*S + 256*R**2*U + 81*R*S**2 - 48*R*S*U + 64*R*U**2 - 16*S*U**2]^2
+   R30(E) on U = 0: identically zero
+   R30(E) on 16R = U: not identically zero; factors [(S, 2), (U, 7), (16*S - 27*U, 2), (81*S**2 - 322*S*U + 81*U**2, 2)]
+   R30(E) on 4R + 4S = 7U: not identically zero; factors [(S, 2), (U, 3), (4*S - 7*U, 2), (16*S - 27*U, 2), (2500*S**3 - 11191*S**2*U + 17176*S*U**2 - 9072*U**3, 2)]
+   R30(E) on 4R + 4S + U = 0 (TTV): not identically zero; factors [(S, 2), (U, 3), (4*S + U, 2), (16*S + U, 2), (2500*S**3 + 209*S**2*U + 24*S*U**2 + 16*U**3, 2)]
+   E10 on U = 0: -8*R**3*S**2
+   E10 on 16R = U: -S**2*U**3/512
+   E10 on 4R + 4S = 7U: S**2*(4*S - 7*U)**3/8
+   E10 on 4R + 4S + U = 0 (TTV): S**2*(4*S + U)**3/8

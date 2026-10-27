@@ -1,0 +1,15 @@
+== 1. Gamma and 16 I4 = I2^2
+   I2 = 0: I4 = 0 and Gamma gives (3 I6)^2 = 0, so I6 = 0: no point
+   solutions: [{I4: I2**2/16, I6: I2**3/64}, {I4: I2**2/16, I6: 5*I2**3/192}]
+   I6 / I2^3 = [1/64, 5/192]
+== 2. the points of the note
+   (z^2 - 1)^2 (z^2 - c), c = 0: 16 I4 - I2^2 = 0; point theta
+   (z^2 - 1)^2 (z^2 - c), c = -2 - sqrt(3): 16 I4 - I2^2 = 0; point theta'
+   (z^2 - 1)^2 (z^2 - c), c = -2 + sqrt(3): 16 I4 - I2^2 = 0; point theta'
+   D = 8, E(0 : 0 : 1) = [8, 4, 8, 0]: 16 E4 - E2^2 = 0; point theta
+   D = 8, E(0 : 4/3 : 1) = [-8, 4, -40/3, 0]: 16 E4 - E2^2 = 0; point theta'
+   D = 12, E(0 : -1 : 1): 16 E4 - E2^2 = 0; point theta
+   D = 12, E(0 : sqrt(3) : 1): 16 E4 - E2^2 = 0; point theta'
+   D = 12, E(0 : -sqrt(3) : 1): 16 E4 - E2^2 = 0; point theta'
+   D = 12, on Z1 (the restriction of the note): 16 I4 - I2^2 = 192*(2*y - 3)
+   D = 12, Z1 at y = 3/2: [-12, 9, -45, 0]; point theta'

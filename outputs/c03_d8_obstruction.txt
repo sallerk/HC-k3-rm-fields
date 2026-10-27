@@ -1,0 +1,48 @@
+== A. Elkies-Kumar D = 8 map
+  E10 = -8*R**3*S**2
+  on R = 0: E2, E4, E6 = [-4*(3*S - 2*U), 4*U**2, -8*U**2*(2*S - U)]
+  on S = 0: E2, E4, E6 = [-8*(4*R - U), 4*(2*R + U)**2, -8*(2*R + U)**2*(6*R - U)]
+  Gamma equation I4^3 - (3 I6 - I2 I4)^2 restricted to R = 0: 0
+  Gamma equation I4^3 - (3 I6 - I2 I4)^2 restricted to S = 0: 0
+  2-nodal family (z^2-1)^2 (z^2-c): I10 = 0 ; Gamma equation: 0
+  theta (z^3-1)^2 on Gamma: True ; E at (0:0:1): [8, 4, 8, 0] ; theta IC: [-216, 2916, -157464, 0]
+  closed triple-root orbit x^3 y^3: IC = [6, 0, 0, 0] ; E at (0:1:0): [-12, 0, 0, 0]
+  common factor of E4, E6 on R = 0 and on S = 0 (preimages of (1:0:0:0)): [4*U**2, 4*(2*R + U)**2]
+  TTV n = 4 symbolic: IC = lam^w EK8(-(sigma+2)/16, (sigma-2)/16) with lam = 32 : True
+  Y_-(8) branch function along the TTV line: (sigma - 1)**2/2
+== B. TTV-type pencils with singular branch curve (line + quintic)
+  trial 0: c = 4*t + 3, S = -3*t**5 - 6*t**3 - 2*t**2 - 3*t
+    deg I10 = 25; multiplicities of the factors of I10 sharing roots with S + 2c^4: [3], with S - 2c^4: [2]; all factor multiplicities: [2, 3]
+    quintic restricted to the line z = -2c minus (S + 2c^4): 0
+  trial 1: c = 3*t + 3, S = -t**5 - 5*t**4 - 3*t**3 + t**2 + t + 6
+    deg I10 = 25; multiplicities of the factors of I10 sharing roots with S + 2c^4: [3], with S - 2c^4: [2]; all factor multiplicities: [2, 3]
+    quintic restricted to the line z = -2c minus (S + 2c^4): 0
+  trial 2: c = 2*t + 3, S = 4*t**5 - 6*t**4 - 6*t**3 + 2*t**2 + 6*t - 1
+    deg I10 = 25; multiplicities of the factors of I10 sharing roots with S + 2c^4: [3], with S - 2c^4: [2]; all factor multiplicities: [2, 3]
+    quintic restricted to the line z = -2c minus (S + 2c^4): 0
+== C. D = 5 calibration
+  [EK] Cor. 15 at listed (g,h) = (-8/3,47/2): match = True, mu = 1; rational (g,h) of the sextic: [(-8/3, 47/2)]
+  [EK] Cor. 15 at listed (g,h) = (-37/6,67): match = True, mu = 4; rational (g,h) of the sextic: [(-37/6, 67)]
+  [EK] Cor. 15 at listed (g,h) = (0,27/50): match = True, mu = 25; rational (g,h) of the sextic: [(0, 27/50)]
+  [EK] Cor. 15 at listed (g,h) = (-1/24,1/100): match = True, mu = 400; rational (g,h) of the sextic: [(-1/24, 1/100)]
+  [EK] Cor. 15 at listed (g,h) = (-25/54,59/81): match = True, mu = 36; rational (g,h) of the sextic: [(-25/54, 59/81)]
+  [EK] Cor. 15 at listed (g,h) = (-2/3,-14/25): match = True, mu = 100; rational (g,h) of the sextic: [(-2/3, -14/25)]
+  [EK] Cor. 15 at listed (g,h) = (47/54,71/81): match = True, mu = 36; rational (g,h) of the sextic: [(47/54, 71/81)]
+  [EK] Cor. 15 at listed (g,h) = (-1/6,1/25): match = True, mu = 100; rational (g,h) of the sextic: [(-1/6, 1/25)]
+  [EK] Cor. 15 at listed (g,h) = (-4/3,16/25): match = True, mu = 100; rational (g,h) of the sextic: [(-4/3, 16/25)]
+  [EK] Cor. 15 at listed (g,h) = (-4/3,49/22): match = True, mu = 121; rational (g,h) of the sextic: [(-4/3, 49/22)]
+  [EK] Cor. 15 at listed (g,h) = (0,-54/11): match = True, mu = 121; rational (g,h) of the sextic: [(0, -54/11)]
+  [EK] Cor. 15 at listed (g,h) = (11/6,53/11): match = True, mu = 484; rational (g,h) of the sextic: [(11/6, 53/11)]
+  [EK] Cor. 15 at listed (g,h) = (-5/24,1/64): match = True, mu = 1936; rational (g,h) of the sextic: [(-5/24, 1/64)]
+  [EK] Cor. 15 at listed (g,h) = (11/6,-89/25): match = True, mu = 100; rational (g,h) of the sextic: [(11/6, -89/25)]
+  [EK] Cor. 15 at listed (g,h) = (-2/3,68/11): match = True, mu = 121; rational (g,h) of the sextic: [(-2/3, 68/11)]
+  [EK] Cor. 15 at listed (g,h) = (-2/3,26/25): match = True, mu = 3025; rational (g,h) of the sextic: [(-2/3, 26/25)]
+  [K3M] example pencil: deg_t I2, I4, I6, I10 = [6, 12, 18, 30]
+  I4(t) = 40000*(9*t**6 + 8*t**3 + 5*t + 9)**2 | = ( 200*(9*t**6 + 8*t**3 + 5*t + 9) )^2: True
+  sign 1: I10 = mu^5 4 h^2: False
+  sign -1: I10 = mu^5 4 h^2: True
+     g(t) = -(9*t**6 + 8*t**3 + 5*t + 9)/(30*(t + 1)**2*(t**2 - t + 1)**2)
+     h(t) = (864*t**15 + 704*t**12 + 1800*t**10 - 23160*t**9 + 38868*t**7 + 1808*t**6 - 17750*t**5 + 1400*t**4 + 3845*t**3 + 984*t**2 + 1768*t + 848)/(100000*(t + 1)**5*(t**2 - t + 1)**5)
+     mu(t) = 2000*(t + 1)**2*(t**2 - t + 1)**2
+     numerator of h: degree 15 factor multiplicities [1]
+  I10(t) factor multiplicities: [2] ; total degree 30

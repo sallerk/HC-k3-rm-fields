@@ -1,0 +1,39 @@
+P = 2^31 - 1 = 2147483647, prime: True; P mod 3 = 1, P mod 7 = 1
+== member 1: c = 1 + 2 t, P coefficients [3, 1, -2, 1, 5, -1], p = 3; primitive 3-th root of unity modulo P: 1513477735
+   good reduction at 3: True (ok)
+   k = 1, q = 3: NTT sum = 0 (0.0 s); A equals the direct sums: True; exact count = 0, equal: True; FFT value = 0, equal: True
+   k = 2, q = 9: NTT sum = 18 (0.0 s); A equals the direct sums: True; exact count = 18, equal: True; FFT value = 18, equal: True
+   k = 3, q = 27: NTT sum = 0 (0.0 s); A equals the direct sums: True; exact count = 0, equal: True; FFT value = 0, equal: True
+   k = 4, q = 81: NTT sum = 162 (0.0 s); A equals the direct sums: True; exact count = 162, equal: True; FFT value = 162, equal: True
+   k = 5, q = 243: NTT sum = 0 (0.0 s); A equals the direct sums: True; exact count = 0, equal: True; FFT value = 0, equal: True
+   k = 6, q = 729: NTT sum = -2916 (0.0 s); A equals the direct sums: True; exact count = -2916, equal: True; FFT value = -2916, equal: True
+   k = 7, q = 2187: NTT sum = 0 (0.0 s); exact count = 0, equal: True; FFT value = 0, equal: True
+   k = 8, q = 6561: NTT sum = 30618 (0.0 s); exact count = 30618, equal: True; FFT value = 30618, equal: True
+   k = 9, q = 19683: NTT sum = 0 (0.0 s); FFT value = 0, equal: True
+   k = 10, q = 59049: NTT sum = -275562 (0.1 s); FFT value = -275562, equal: True
+   k = 11, q = 177147: NTT sum = 0 (0.6 s); FFT value = 0, equal: True
+   k = 12, q = 531441: NTT sum = 0 (2.6 s); FFT value = 0, equal: True
+== member 1: the characteristic polynomial from the NTT traces k = 1..12 only
+   signs eps consistent with all 12 traces: [1]
+   eps = 1: c_1..c_8 = ['0', '-9', '0', '0', '0', '729', '0', '-8748']
+   factors of R (degree, multiplicity, cyclotomic index or False): [(16, 1, False)]
+   factors of R over Q(sqrt2) (degree, multiplicity): [(16, 1)]
+   cyclotomic degree 0: rho(S over F_3-bar) <= 6 + 0 = 6
+   R(T) = T**16 - T**14 + T**10 - 4*T**8/3 + T**6 - T**2 + 1
+== member 2: c = 5 + 3 t, P coefficients [5, -1, 6, 5, 5, 4], p = 7; primitive 7-th root of unity modulo P: 1752599774
+   good reduction at 7: True (ok)
+   k = 1, q = 7: NTT sum = -12 (0.0 s); A equals the direct sums: True; exact count = -12, equal: True; FFT value = -12, equal: True
+   k = 2, q = 49: NTT sum = -52 (0.0 s); A equals the direct sums: True; exact count = -52, equal: True; FFT value = -52, equal: True
+   k = 3, q = 343: NTT sum = 36 (0.0 s); A equals the direct sums: True; exact count = 36, equal: True; FFT value = 36, equal: True
+   k = 4, q = 2401: NTT sum = 744 (0.0 s); exact count = 744, equal: True; FFT value = 744, equal: True
+   k = 5, q = 16807: NTT sum = -44992 (0.0 s); FFT value = -44992, equal: True
+   k = 6, q = 117649: NTT sum = 617324 (0.3 s); FFT value = 617324, equal: True
+   k = 7, q = 823543: NTT sum = 4455600 (2.8 s); FFT value = 4455600, equal: True
+   k = 8, q = 5764801: NTT sum = -20728928 (20.2 s); FFT value = -20728928, equal: True
+== member 2: the characteristic polynomial from the NTT traces k = 1..8 only
+   signs eps consistent with all 8 traces: [1]
+   eps = 1: c_1..c_8 = ['12', '98', '588', '2744', '19208', '33614', '-941192', '-9882516']
+   factors of R (degree, multiplicity, cyclotomic index or False): [(16, 1, False)]
+   factors of R over Q(sqrt2) (degree, multiplicity): [(8, 1), (8, 1)]
+   cyclotomic degree 0: rho(S over F_7-bar) <= 6 + 0 = 6
+   R(T) = T**16 + 12*T**15/7 + 2*T**14 + 12*T**13/7 + 8*T**12/7 + 8*T**11/7 + 2*T**10/7 - 8*T**9/7 - 12*T**8/7 - 8*T**7/7 + 2*T**6/7 + 8*T**5/7 + 8*T**4/7 + 12*T**3/7 + 2*T**2 + 12*T/7 + 1

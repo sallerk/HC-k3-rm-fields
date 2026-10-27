@@ -1,0 +1,5 @@
+E on U = 0 at (rho : 1 : 0): {2: -4*(8*rho + 3), 4: 4*rho*(4*rho + 9), 6: -8*rho*(24*rho**2 + 47*rho + 18), 10: -8*rho**3}
+   6 weighted-projective equations in (rho, a)
+   gcd in Q(rho)[a] of all equations: 16*(a**2*rho - 4*rho - 4)
+   => every point of U = 0 lies on the D4 locus: the curve over U = 0 is the D4 family.
+   a as a function of rho: [-2*sqrt((rho + 1)/rho), 2*sqrt((rho + 1)/rho)]

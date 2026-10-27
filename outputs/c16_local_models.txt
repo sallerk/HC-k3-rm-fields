@@ -1,0 +1,4 @@
+ord_{u=0} R30(I(f* + u g)) for random integral sextics g (model prediction: V4 2, D6 6, order-48 12):
+   V4: x^6 + 2 x^4 + 3 x^2 + 1 (x -> -x): [2, 2, 2, 2]
+   D6: x^6 + x^3 + 1/2 (the cusp of B8): [6, 6, 6, 6]
+   |Aut| = 48: x^5 - x: [12, 12, 12, 12]

@@ -1,0 +1,57 @@
+== D = 13: variables (g, h); N = 1; m = 2
+   E10 = 64*g**4*h**2*u**4
+   affine base locus (lex Groebner basis): [1]
+   at infinity, (1 : y : 0): E = [24*y**2, 0, 0, 0]
+   at infinity, (y : 1 : 0): E = [24, 0, 0, 0]
+   -- resolution of the base point (1:0:0) (special lines through it: ['h=0', 'u=0'])
+    [A] o = [1, 2, 3, 6], mu = 1, excess = 1, generic image: Gamma, constant; restricted map (chart A) = [32*y, 16*y**2, 192*y**3, 0]
+        strict transforms of the special lines meet it at y = {'h=0': [], 'u=0': [0]}
+        base point at y = 0: blowing up
+      [A(0)A] o = [2, 4, 6, 10], mu = 2, excess = 0, generic image: M2, non-constant; restricted map (chart A) = [8*(4*y + 3), 16*y**2, 32*y**2*(6*y + 13), 64*y**4]
+          strict transforms of the special lines meet it at y = {'h=0': [], 'u=0': [0]}
+== D = 17: variables (g, h); N = (2*g + 1)**2; m = 4
+   E10 = 256*h**3*u**5*(2*g + u)**12
+   affine base locus (lex Groebner basis): [20*g**2 - 218880*g*h**2 - 480*g*h + 20*g - 2727936*h**4 + 476160*h**3 - 108480*h**2 - 240*h + 5, 10*g*h**3 - 22*h**4 + 5*h**3, h**5]
+   at infinity, (1 : y : 0): E = [32, 64, 512, 0]
+   at infinity, (y : 1 : 0): E = [32*y**4, 64*y**8, 512*y**12, 0]
+   -- resolution of the base point (-1/2,0) (special lines through it: ['h=0', '2g+u=0'])
+    [A] o = [2, 4, 6, 15], mu = 2, excess = 5, generic image: Gamma, non-constant; restricted map (chart A) = [2*(192*y**2 - 48*y + 1), 1/4, (256*y**2 - 64*y + 1)/8, 0]
+        strict transforms of the special lines meet it at y = {'h=0': [0], '2g+u=0': []}
+   -- resolution of the base point (0:1:0) (special lines through it: ['u=0', '2g+u=0'])
+    [A] o = [2, 6, 8, 17], mu = 2, excess = 7, generic image: (1:0:0:0), constant; restricted map (chart A) = [384*y**2, 0, 0, 0]
+        strict transforms of the special lines meet it at y = {'u=0': [0], '2g+u=0': [-2]}
+        base point at y = 0: blowing up
+      [A(0)A] o = [4, 8, 12, 22], mu = 4, excess = 2, generic image: Gamma, non-constant; restricted map (chart A) = [32*(12*y**2 - 4*y + 1), 64*(4*y - 1)**2, 512*(4*y - 1)**2*(16*y**2 - 4*y + 1), 0]
+          strict transforms of the special lines meet it at y = {'u=0': [0], '2g+u=0': []}
+== D = 12: variables (e, f); N = f - 1; m = 3
+   E10 = -4*e**3*u**6*(-f + u)**6
+   affine base locus (lex Groebner basis): [3*e - f + 1, f**2 - 2*f + 1]
+   at infinity, (1 : y : 0): E = [-16*y**3, 4*y**6, -24*y**9, 0]
+   at infinity, (y : 1 : 0): E = [-16, 4, -24, 0]
+   -- resolution of the base point (0,1) (special lines through it: ['e=0', 'f=u'])
+    [A] o = [1, 2, 3, 9], mu = 1, excess = 4, generic image: Gamma, non-constant; restricted map (chart A) = [8*(y - 3), 4*y**2, 8*y**2*(y - 4), 0]
+        strict transforms of the special lines meet it at y = {'e=0': [], 'f=u': [0]}
+   -- resolution of the base point (1:0:0) (special lines through it: ['u=0', 'f=u'])
+    [A] o = [2, 5, 7, 12], mu = 2, excess = 2, generic image: (1:0:0:0), constant; restricted map (chart A) = [-24*y**2, 0, 0, 0]
+        strict transforms of the special lines meet it at y = {'u=0': [0], 'f=u': [1]}
+        base point at y = 0: blowing up
+      [A(0)A] o = [3, 6, 9, 18], mu = 3, excess = 3, generic image: Gamma, constant; restricted map (chart A) = [-16, 4, -24, 0]
+          strict transforms of the special lines meet it at y = {'u=0': [0], 'f=u': []}
+          base point at the far end (x = 0 in chart B): blowing up
+        [A(0)B(0)A] o = [6, 12, 18, 30], mu = 6, excess = 0, generic image: M2, non-constant; restricted map (chart A) = [-8*(3*y + 2), 4*(15*y + 1), -4*(102*y**2 + 67*y + 6), -4*y**3]
+== forbidden lines
+  D = 13: E4 on g = 0: 4*u**4 (non-zero for u != 0)
+          E at (0:1:0): [24, 0, 0, 0]; E10 = 64*g**4*h**2*u**4
+  D = 17: E4 on h = 0: 4*(g + u)**4*(2*g + u)**4
+          E at (g,h) = (-1, 0): [24, 0, 0, 0]
+          E at (1:0:0): [32, 64, 512, 0] (theta point: theta)
+          at p1 = (-1/2, 0), with x = 2g+1, y = h: multiplicities of E2, E4, E6, E10 = [2, 4, 6, 15]
+          E4 / x^4 at p1 = 1/4; E10 = 256*x**12*y**3
+          E6 / x^4: multiplicity 2
+          image of h = 0: [8*(2*t + 1)**2*(t**2 - 4*t - 2), 4*(t + 1)**4*(2*t + 1)**4, 8*(t + 1)**4*(2*t + 1)**6*(t**2 - 6*t - 3), 0]; theta condition I4/I2^2 = 1/16 <=> 3*(2*t + 1)*(2*t**2 - 2*t - 1) = 0
+  D = 17: elements of norm -3 in O_17: none, since (17/3) = -1 (3 inert)
+  D = 12: image of e = 0: [-8*(f - 1)*(2*f**2 - 3), 4*f**4*(f - 1)**2, -8*f**4*(f - 1)**3*(3*f**2 - 4), 0]
+          theta on e = 0 <=> -3*(f - 1)*(f + 1)*(f**2 - 3) = 0 and -(f - 1)*(f + 1)*(5*f**4 - 27*f**2 + 27) = 0; (1:0:0:0) on e = 0 at f = 0
+          image of f = u (affine e): [-24*e, 0, 0, 0]
+          image of u = 0: (e : f : 0) -> [-16*f**3, 4*f**6, -24*f**9, 0]
+          units of O_12 = Z[sqrt3]: fundamental unit 2 + sqrt3 has norm 1

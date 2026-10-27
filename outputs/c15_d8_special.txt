@@ -1,0 +1,21 @@
+== L1: 16R = U
+   R30(E) on the line: constant -19683/1024, factors [(s, 2), (16*s - 27, 2), (81*s**2 - 322*s + 81, 2)]
+   point 16*s - 27 = 0: ord R30 = 2; on the D6 family x^6 + x^3 + t (exact: t a root of (2*t - 1)/2)
+   point 81*s**2 - 322*s + 81 = 0: ord R30 = 2; on neither the D4 nor the D6 family, none of the isolated curves: Aut = V4
+   point at infinity (R:S:U) = (0 : 1 : 0): E10 = 0, ord R30 = 7
+== L2: 4R + 4S = 7U
+   R30(E) on the line: constant -314928, factors [(s, 2), (4*s - 7, 2), (16*s - 27, 2), (2500*s**3 - 11191*s**2 + 17176*s - 9072, 2)]
+   point 16*s - 27 = 0: ord R30 = 2; on the D6 family x^6 + x^3 + t (exact: t a root of (2*t - 1)/2)
+   point 2500*s**3 - 11191*s**2 + 17176*s - 9072 = 0: ord R30 = 2; on neither the D4 nor the D6 family, none of the isolated curves: Aut = V4
+   point at infinity (R:S:U) = (-1 : 1 : 0): E10 = 8, ord R30 = 3
+      the curve there is x^5 - x (|Aut| = 48)
+      D4 family x^5 + x^3 + t x: common factor in t of the equations: 16
+      D6 family x^6 + x^3 + t: common factor in t of the equations: 144*(50*t + 1)**2
+== TTV: 4R + 4S + U = 0
+   R30(E) on the line: constant -314928, factors [(s, 2), (4*s + 1, 2), (16*s + 1, 2), (2500*s**3 + 209*s**2 + 24*s + 16, 2)]
+   point 16*s + 1 = 0: ord R30 = 2; on neither the D4 nor the D6 family, none of the isolated curves: Aut = V4
+   point 2500*s**3 + 209*s**2 + 24*s + 16 = 0: ord R30 = 2; on neither the D4 nor the D6 family, none of the isolated curves: Aut = V4
+   point at infinity (R:S:U) = (-1 : 1 : 0): E10 = 8, ord R30 = 3
+      the curve there is x^5 - x (|Aut| = 48)
+      D4 family x^5 + x^3 + t x: common factor in t of the equations: 16
+      D6 family x^6 + x^3 + t: common factor in t of the equations: 144*(50*t + 1)**2
